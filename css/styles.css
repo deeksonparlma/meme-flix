@@ -1,0 +1,64 @@
+.navbar>p>a{
+  text-decoration: none;
+  color:red;
+}
+.navbar:hover{
+  background-color: #2E2E2E;
+}
+body{
+  background-color: black;
+}
+.nav{
+  background-color: #0B0A0A;
+}
+.logo{
+  height: 70px;
+}
+.logo1{
+  height: 50px;
+  border-radius: 20px;
+}
+.log{
+  float: right;
+}
+.name{
+  font-size: 20px;
+  color:#DC0A27;
+}
+video{
+  margin-left: 10px;
+}
+.row>img{
+  margin-left: 10px;
+  margin-bottom: 2px;
+  opacity: 0.8;
+}
+.custom{
+  height: 50px;
+}
+#surprise{
+  padding-top: 100px;
+}
+.active{
+  background-color: #B7031B;
+}
+#latest{
+  background-image: url("../img/meme.jpg");
+  background-position: center;
+  height: 250px;
+  padding:0px 0px 0px 0px;
+}
+p{
+  color: #CFCACA;
+}
+@media only screen and (max-width:800px){
+  .nav{
+    display: block;
+  }
+  .navbar>p>a{
+    margin-left: 150px;
+  }
+  .logo1{
+    display: none;
+  }
+}
