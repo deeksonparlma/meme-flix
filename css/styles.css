@@ -21,8 +21,11 @@ body{
 .log{
   float: right;
 }
+#latest>img{
+  height: 300px;
+}
 .name{
-  font-size: 20px;
+  font-size: 50px;
   color:#DC0A27;
 }
 video{
@@ -43,7 +46,7 @@ video{
   background-color: #B7031B;
 }
 #latest{
-  background-image: url("../img/meme.jpg");
+  background-color: black;
   background-position: center;
   height: 250px;
   padding:0px 0px 0px 0px;
@@ -60,5 +63,12 @@ p{
   }
   .logo1{
     display: none;
+  }
+  #latest>img{
+    height: 150px;
+  }
+  .name{
+    font-size: 30px;
+    color:#DC0A27;
   }
 }
