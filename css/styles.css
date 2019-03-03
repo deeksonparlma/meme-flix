@@ -71,4 +71,12 @@ p{
     font-size: 30px;
     color:#DC0A27;
   }
+  .row>video{
+    height: 200px;
+    width: 150px;
+  }
+  .row>img{
+    height: 150px;
+    width: 120px;
+  }
 }
