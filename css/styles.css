@@ -51,6 +51,10 @@ video{
   height: 250px;
   padding:100px 0px 250px 0px;
 }
+.row>img{
+  height: 230px;
+  width: 200px;
+}
 p{
   color: #CFCACA;
 }
